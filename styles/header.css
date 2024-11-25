@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 1.5rem;
+  align-items: center;
+
+  nav {
+    display: flex;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    gap: 1.5rem;
+
+    & a {
+      text-decoration: none;
+      color: var(--text-color-secondary);
+    }
+    & button {
+      border-radius: 8px;
+      padding: 12px 24px;
+      border: none;
+      cursor: pointer;
+    }
+  }
+}
+@media (width <= 79rem) {
+   header a {
+    display: none;
+   }
+}
+
+button:hover {
+  transform: scale(1.01);
+  transition: ease 0.3s;
+}
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.01);
+  transition: ease 0.3s;
+}
