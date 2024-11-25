@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  margin: 2rem 1.5rem;
+  margin: 2rem 1.5rem 2rem 1.5rem;
   align-items: center;
 
   nav {
@@ -24,9 +24,9 @@ header {
   }
 }
 @media (width <= 79rem) {
-   header a {
+  header a {
     display: none;
-   }
+  }
 }
 
 button:hover {
@@ -34,7 +34,12 @@ button:hover {
   transition: ease 0.3s;
 }
 a:hover {
-  text-decoration: underline;
-  transform: scale(1.01);
-  transition: ease 0.3s;
+  background: linear-gradient(
+    90deg,
+    var(--brand-color-secondary) 0%,
+    var(--brand-color) 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
