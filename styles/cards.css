@@ -1,0 +1,128 @@
+.cardum {
+  padding: 2.5rem 2rem;
+  width: 17.5rem;
+  height: 25rem;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+
+  & p {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-base);
+    margin-top: 0.5rem;
+  }
+  & h2 {
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+
+.carddois {
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+  width: 37rem;
+  height: 25rem;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+  padding: 2.5rem 2rem;
+  position: relative;
+  & .imgg {
+    width: 15rem;
+    height: 30.35rem;
+    transform: translateY(-158px);
+  }
+
+  & p {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-base);
+    margin-top: 0.5rem;
+    width: 16rem;
+  }
+  & h2 {
+    width: 16rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+.cardtres {
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  background-color: var(--surface-color);
+  width: 17.5rem;
+  height: 25rem;
+
+  & p {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-base);
+    margin-top: 0.5rem;
+    width: 13.5rem;
+  }
+  & h2 {
+    width: 13.5rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+.cardquatro {
+  background-color: var(--surface-color);
+  padding: 2.5rem 2rem;
+  border-radius: 24px;
+  display: flex;
+  width: 37rem;
+  height: 25rem;
+  overflow: hidden;
+  & p {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-base);
+    margin-top: 0.5rem;
+    width: 16rem;
+  }
+  & h2 {
+    width: 16rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+.imggg {
+  width: 15rem;
+  height: 30.35rem;
+  transform: translateY(-158px);
+  margin-right: 2rem;
+}
+
+.cardcinco {
+  background-color: var(--surface-color);
+  padding: 2.5rem 2rem;
+  width: 37rem;
+  height: 25rem;
+  border-radius: 24px;
+  overflow: hidden;
+  display: flex;
+  & p {
+    color: var(--text-color-secondary);
+    font-size: var(--fs-base);
+    margin-top: 0.5rem;
+    width: 16rem;
+  }
+  & h2 {
+    width: 16rem;
+    margin-top: 0.5rem;
+    font-size: 2rem;
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+  }
+}
+.imgggg {
+  width: 15rem;
+  height: 30.35rem;
+  transform: translateY(-2px);
+  margin-left: 2rem;
+}

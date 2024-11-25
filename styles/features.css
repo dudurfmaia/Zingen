@@ -1,0 +1,58 @@
+#features {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--bg-color);
+  padding: 5rem 2rem;
+  gap: 2rem;
+}
+@media (width <= 79rem) {
+  #features {
+    .cardum {
+      height: 14.37rem;
+    }
+    .carddois {
+      height: 16.12rem;
+    }
+    .cardtres {
+      max-width: 20.43rem;
+      height: 17.75rem;
+      & h2 {
+        width: 17.43rem;
+        height: 24px;
+      }
+      & p {
+        width: 279px;
+        height: 156px;
+
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+      }
+    }
+    .cardquatro {
+      height: 16rem;
+    }
+    .cardcinco {
+      height: 16.12rem;
+    }
+    .cardum,
+    .carddois,
+    .cardtres,
+    .cardquatro,
+    .cardcinco {
+      width: 20.43rem;
+      padding: 1.5rem;
+    }
+    & h2 {
+      font-size: 1.25rem;
+      line-height: 120%;
+      letter-spacing: -0.04em;
+    }
+    .imgg,
+    .imggg,
+    .imgggg {
+      display: none;
+    }
+  }
+}
