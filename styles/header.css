@@ -29,10 +29,7 @@ header {
   }
 }
 
-button:hover {
-  transform: scale(1.01);
-  transition: ease 0.3s;
-}
+
 a:hover {
   background: linear-gradient(
     90deg,
