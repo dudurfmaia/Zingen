@@ -1,0 +1,148 @@
+#pricing {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--bg-color);
+}
+.pricingtext {
+  color: var(--brand-color);
+  font-size: 14px;
+  justify-content: center;
+  text-align: center;
+  & .ppp {
+    font-size: var(--fs-xl);
+    font-weight: var(--fw-bold);
+    color: var(--text-color-primary);
+    width: 50rem;
+    text-align: center;
+    justify-self: center;
+    line-height: 120%;
+  }
+}
+.cardss {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  gap: 2rem;
+}
+
+.cardumm,
+.carddoiss,
+.cardtress {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--surface-color);
+  border-radius: 24px;
+  padding: 2rem;
+  width: 24rem;
+  height: 30rem;
+  & span {
+    font-size: 1rem;
+    color: var(--text-color-secondary);
+    font-weight: var(--fw-base);
+    line-height: 20px;
+  }
+  & .textt {
+    font-size: 14px;
+    margin-top: 1rem;
+  }
+  & .text {
+    margin-top: 0.5rem;
+    margin-bottom: 1.5rem;
+  }
+  & h3 {
+    font-size: 1.25rem;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+  }
+  & p {
+    font-size: var(--fs-base);
+    color: var(--text-color-secondary);
+  }
+  & h2 {
+    font-size: 2.5rem;
+    line-height: 120%;
+    letter-spacing: -0.04em;
+    margin-bottom: 1.5rem;
+  }
+}
+.check {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+.checks {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.pricingbtn {
+  margin-bottom: 2rem;
+  background: transparent;
+  border: 1px solid var(--text-color-primary);
+  color: var(--text-color-primary);
+  padding: 12px 24px;
+  cursor: pointer;
+
+  border-radius: 8px;
+}
+& .pricingbtn:hover {
+  background-color: var(--text-color-primary);
+  color: black;
+}
+.cardtress {
+  position: relative;
+  padding-top: 72px;
+  overflow: hidden;
+  height: 35rem;
+  border: 1px solid var(--brand-color-secondary);
+}
+.pricingbtnn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+  cursor: pointer;
+}
+.premium {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media (width <= 79rem) {
+  & #pricing {
+    margin-top: 1rem;
+  }
+  & .pricingtext {
+    padding: 0 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    & .ppp {
+      margin-top: 0.5rem;
+      width: 327px;
+      font-size: 1.5rem;
+      line-height: 120%;
+      letter-spacing: -0.04em;
+    }
+  }
+  .cardss {
+    display: flex;
+    flex-direction: column;
+  }
+  .cardumm,
+  .carddoiss,
+  .cardtress {
+    width: 20.43rem;
+  }
+  .carddoiss {
+    height: 31rem;
+  }
+}
