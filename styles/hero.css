@@ -19,6 +19,7 @@ main {
     width: 25.75rem;
     object-fit: cover;
     height: auto;
+    
   }
   & h2 {
     color: var(--text-color-secondary);

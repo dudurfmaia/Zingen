@@ -64,10 +64,20 @@ h3 {
     --fs-2xl: 4rem;
   }
 }
-button:hover:not(#planos, .pricingbtn) {
+button:hover:not(#planos, .pricingbtn, .nobtn) {
   background: linear-gradient(
     90deg,
     var(--brand-color-secondary) 0%,
     var(--brand-color) 100%
   );
 }
+.container {
+  margin: 5rem 2rem;
+}
+button {
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+}
+a {
+  filter: drop-shadow(10px 10px 15px rgba(0, 0, 0, 0.5));
+}
+
