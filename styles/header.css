@@ -24,11 +24,10 @@ header {
   }
 }
 @media (width <= 79rem) {
-  header a {
+  header a:not(.btndld) {
     display: none;
   }
 }
-
 
 a:hover {
   background: linear-gradient(
