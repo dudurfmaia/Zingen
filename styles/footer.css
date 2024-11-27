@@ -1,0 +1,77 @@
+#footer {
+  padding: 5rem 2rem;
+  & .logoft {
+    margin-right: 330px;
+  }
+
+  & footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+footer {
+  margin: 0 2rem;
+}
+
+.produto,
+.legal,
+.empresa {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  & h3 {
+    color: var(--brand-color);
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 100%;
+    letter-spacing: 0.08em;
+  }
+
+  & a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+  }
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.credits {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 2rem 2rem 2rem;
+
+  & p {
+    line-height: 24%;
+    letter-spacing: 0.02em;
+    font-size: 0.875rem;
+    color: var(--text-color-secondary);
+  }
+}
+@media (width <= 79rem) {
+  #footer {
+    margin-top: 0;
+    & footer {
+      margin-top: 0;
+      
+      display: flex;
+      flex-direction: column;
+      & .logoft {
+        margin-bottom: 3rem;
+      }
+      & .produto,
+      & .empresa,
+      & .legal {
+        margin-bottom: 4rem;
+      }
+    }
+    & .credits {
+      display: flex;
+      flex-direction: column;
+      gap: 1.5rem;
+    }
+  }
+}
