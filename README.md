@@ -33,7 +33,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 💻 Projeto
 
 
-Projeto voltado para a criação de uma LP de produto adicionando media queries e responsividade.
+Projeto voltado para a criação de uma LP de produto adicionando media queries.
 
 
 ## 🔖 Layout
