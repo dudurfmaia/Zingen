@@ -18,8 +18,8 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 
 <p align="center">
-  <img alt="zingen" src="C:\Users\joaoe\OneDrive\Área de Trabalho\Thumbnail.png
-" width="100%">
+  <img alt="zingen" src=![Thumbnail](https://github.com/user-attachments/assets/d52c0872-5797-433c-aa4f-e29343c38e57)" width="100%">
+
 </p>
 
 ## 🚀 Tecnologias
